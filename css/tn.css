@@ -61,7 +61,7 @@ footer .badges{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px}
 @keyframes fadeout{to{opacity:0;visibility:hidden}}
 @media(prefers-reduced-motion:reduce){.loader{display:none}.btn:not(.alt):hover::before{display:none}}
 .hero .tagsub{margin:0 0 12px;font-size:clamp(19px,4.4vw,24px);font-weight:600;color:#ffd29a;max-width:620px}
-/* QA fixes + Ybor group */
+/* QA fixes + text cards */
 .about-text p.tractor{display:block;background:linear-gradient(135deg,rgba(255,130,0,.18),rgba(255,130,0,.06));border-left:4px solid #FF8200;border-radius:12px;padding:14px 16px;color:#fff;font-weight:600}
 .about .tnstrong{margin:6px 0 10px}
 .about-photos{grid-template-columns:1fr!important}

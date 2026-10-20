@@ -50,3 +50,9 @@ footer strong{color:#fff;text-shadow:0 0 18px rgba(247,107,21,.55)}
 .ba{margin:14px 0 0;border-radius:14px;overflow:hidden;background:#111;box-shadow:0 0 0 1px rgba(247,107,21,.35)}
 .ba figcaption{background:#111;color:var(--o);font-weight:800;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;padding:8px 12px}
 .ba video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#111}
+
+.hero .herosub{font-size:clamp(18px,4.2vw,22px);color:#ffd7bd;font-weight:600;margin:0 0 14px;max-width:640px}
+.pullquote{margin:0 0 22px;border-left:5px solid var(--o);box-shadow:0 0 28px rgba(247,107,21,.25)}
+.pullquote p{margin:0;font-size:clamp(20px,4.6vw,28px);line-height:1.35;font-weight:700;color:#fff}
+.pullquote cite{display:block;margin-top:10px;color:var(--o);font-style:normal;font-weight:800;font-size:14px;letter-spacing:1.5px;text-transform:uppercase}
+footer em{color:#ffb27a;font-style:normal}

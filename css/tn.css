@@ -72,3 +72,4 @@ footer .badges{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px}
 .tcicon{position:absolute;top:16px;right:16px;width:40px;height:40px;background:url(../img/tristar.svg) center/contain no-repeat;opacity:.9}
 @media(max-width:959px){nav ul{flex-wrap:wrap;overflow:visible;white-space:normal;justify-content:flex-start;gap:6px;padding:6px 12px 8px}nav ul a{min-height:40px;padding:0 10px;font-size:14.5px}}
 .about-text p.motive{font-size:20px;font-weight:800;color:#fff;border-left:4px solid #FF8200;padding-left:14px}
+.about-stats>.stat:last-child{grid-column:1/-1}@media(min-width:720px){.about-stats{grid-template-columns:repeat(3,1fr)}.about-stats>.stat:last-child{grid-column:auto}}

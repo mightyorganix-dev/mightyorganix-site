@@ -16,5 +16,5 @@ All photos from Wikimedia Commons under the licenses listed. Resized and convert
 - **hero**: [City of Franklin 2018.jpg](https://commons.wikimedia.org/wiki/File:City_of_Franklin_2018.jpg), by FranklinCityWatcher, CC BY-SA 4.0
 - **pricing**: [20171027-AMS-LSC-1031 (38037043622).jpg](https://commons.wikimedia.org/wiki/File:20171027-AMS-LSC-1031_(38037043622).jpg), by U.S. Department of Agriculture, Public domain
 - **deposit**: [Card Payment (176811287).jpeg](https://commons.wikimedia.org/wiki/File:Card_Payment_(176811287).jpeg), by Mañico, CC0
-- **about-ybor**: [7th Avenue in Ybor City - Eric Statzer.jpg](https://commons.wikimedia.org/wiki/File:7th_Avenue_in_Ybor_City_-_Eric_Statzer.jpg), by Eric Statzer, CC BY-SA 4.0
 - **about-scuba**: [NOAA diver over reef north coast Tutuila 2023.png](https://commons.wikimedia.org/wiki/File:NOAA_diver_over_reef_north_coast_Tutuila_2023.png), by NOAA Fisheries/Jeff Milisen, Public domain
+- **about-webdesign**: [Responsive-web-design-devices.jpg](https://commons.wikimedia.org/wiki/File:Responsive-web-design-devices.jpg), by Muhammad Rafizeldi (MRafizeldi), CC BY-SA 3.0

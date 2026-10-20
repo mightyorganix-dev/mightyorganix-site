@@ -62,3 +62,12 @@ footer em{color:#ffb27a;font-style:normal}
 .tristar{flex:none;vertical-align:middle;filter:drop-shadow(0 0 5px rgba(247,107,21,.45))}.tristar.hdr{margin-left:4px;filter:none}
 .tnline{display:inline-flex;align-items:center;gap:8px;margin:8px 0 4px;font-weight:700;color:#fff}
 .hero .tsmark{position:absolute;right:-60px;bottom:-80px;width:420px;height:420px;opacity:.07;z-index:0;pointer-events:none}
+
+/* header lockup */
+.brand{gap:10px}.lock{display:flex;flex-direction:column;line-height:1}
+.bname{display:inline-flex;align-items:center;gap:6px;font-weight:900;font-size:clamp(20px,5.6vw,28px);letter-spacing:.04em;text-transform:uppercase;color:#111}
+.bname .tristar.hdr{width:22px;height:22px;margin:0}
+.bsub{margin-top:4px;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--od)}
+.bsub2{display:none;letter-spacing:.04em;text-transform:none;color:#4a4a4a;font-weight:600}
+@media(min-width:720px){.bsub2{display:inline}.bsub{font-size:12px}}
+@media(max-width:380px){.bname{font-size:18px}.brand img{width:36px;height:36px}}

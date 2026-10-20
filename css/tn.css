@@ -60,4 +60,4 @@ footer .badges{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px}
 .loader{position:fixed;inset:0;z-index:100;background:#111 url(../img/tristar.svg) center/72px no-repeat;animation:fadeout .5s .35s forwards;pointer-events:none}
 @keyframes fadeout{to{opacity:0;visibility:hidden}}
 @media(prefers-reduced-motion:reduce){.loader{display:none}.btn:not(.alt):hover::before{display:none}}
-.hero .tagsub{margin:0 0 12px;padding-left:17px;font-size:clamp(16px,3.8vw,19px);font-weight:600;color:#ffd29a;max-width:620px}
+.hero .tagsub{margin:0 0 12px;font-size:clamp(19px,4.4vw,24px);font-weight:600;color:#ffd29a;max-width:620px}

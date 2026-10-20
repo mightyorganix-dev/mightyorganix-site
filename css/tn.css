@@ -1,0 +1,62 @@
+/* ===== Super Tennessee layer ===== */
+:root{--o:#FF8200;--od:#a84f00;--gold:#FF8200;--peach:#fff3e6;--star:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M16 8l1.8 3.7 4 .6-2.9 2.8.7 4L16 17.2 12.4 19l.7-4-2.9-2.8 4-.6z' fill='%23FF8200' fill-opacity='.10'/%3E%3Cpath d='M48 40l1.2 2.5 2.7.4-2 1.9.5 2.7L48 46.3l-2.4 1.2.5-2.7-2-1.9 2.7-.4z' fill='%23FF8200' fill-opacity='.08'/%3E%3C/svg%3E")}
+a{color:var(--od)}
+h2{position:relative}h2::after{content:"";display:block;width:64px;height:5px;border-radius:5px;margin-top:10px;background:linear-gradient(90deg,#FF8200,#ffb35c)}
+.about h2::after{display:none}
+main>section:not(.hero){position:relative}
+main>section:not(.hero):not(:first-of-type)::before{content:"";position:absolute;left:50%;top:-22px;width:min(420px,80%);height:44px;transform:translateX(-50%);z-index:3;pointer-events:none;
+background:url(../img/tristar.svg) center/44px 44px no-repeat,linear-gradient(90deg,transparent,#FF8200 20%,#FF8200 80%,transparent) center/100% 3px no-repeat}
+#services,#pricing{background:var(--star),#fff}
+section.tint,#contact{background:var(--star),linear-gradient(180deg,#fff3e6,#ffe6cc)}
+#how{background:var(--star),linear-gradient(135deg,#FF8200 0%,#ff9a2e 100%);color:#111}
+#how h2::after{background:#111}#how .lead{color:#111}
+#how .steps li{background:#fff;border:0;border-left:6px solid #111;box-shadow:0 8px 24px rgba(0,0,0,.12)}#how .steps span{color:#333}
+#how .btn{background:#111;border-color:#111;color:#fff}#how .btn:hover{background:#000}
+.btn{background:linear-gradient(180deg,#ff9620,#FF8200);border-color:#FF8200;color:#111;position:relative;overflow:visible}
+.btn.alt{background:transparent}
+.btn:not(.alt):hover::after{content:"★";position:absolute;right:-6px;top:-10px;font-size:16px;color:#FF8200;text-shadow:0 0 8px #ffd29a;animation:spark .8s ease-out both}
+@keyframes spark{0%{opacity:0;transform:scale(.3) rotate(-30deg)}50%{opacity:1;transform:scale(1.2) rotate(10deg)}100%{opacity:0;transform:scale(.8) translateY(-8px)}}
+.card{border-top:4px solid #FF8200}
+.card ul{list-style:none;padding-left:0}.card ul li{position:relative;padding-left:24px;margin:4px 0}.card ul li::before{content:"★";position:absolute;left:0;top:0;color:#FF8200;font-size:16px}
+#pricing .g4 .card{position:relative;padding-top:30px;background:linear-gradient(180deg,#fff7ee,#fff 40%)}
+#pricing .g4 .card::after{content:"";position:absolute;right:12px;top:12px;width:28px;height:28px;background:url(../img/tristar.svg) center/contain no-repeat}
+#pricing .g4 .card:nth-child(3){border:2px solid #FF8200;box-shadow:0 12px 34px rgba(255,130,0,.25)}
+.price{color:#111}.price::before{content:"★ ";color:#FF8200;font-size:.7em;vertical-align:.2em}
+.note{border-left-color:#FF8200;background:#fff3e6}
+.slide{background:var(--star),linear-gradient(135deg,#fff3e6,#ffe0bd);border-color:#FF8200}
+.tag{background:#ffe6cc;border-color:#FF8200;color:#5a2b00}
+.chip{border-color:#FF8200}.chip[aria-pressed="true"]{background:#FF8200;color:#111;border-color:#FF8200}
+.work{border-top:4px solid #FF8200}
+.hero::before{background:linear-gradient(100deg,rgba(17,17,17,.93) 0%,rgba(17,17,17,.82) 55%,rgba(60,28,0,.6) 100%),radial-gradient(circle at 85% 20%,rgba(255,130,0,.35),transparent 45%)!important}
+.hero{border-bottom:6px solid #FF8200}
+.marquee{background:linear-gradient(90deg,#FF8200,#ff9a2e);color:#111;border:0}.marquee .track span::after{content:"★";color:#111}
+header{border-bottom:4px solid #FF8200}
+.dock a.book{background:#FF8200;color:#111}
+footer{background:radial-gradient(circle at 80% 0%,rgba(255,130,0,.25),transparent 45%),#111;border-top:8px solid #FF8200}
+footer .tnmap{display:block;width:min(320px,80%);height:auto;margin:0 0 14px;opacity:.95}
+.timeline::before{background:linear-gradient(#FF8200,#ffb35c)}
+input:focus,select:focus,textarea:focus{border-color:#FF8200}
+@media(prefers-reduced-motion:reduce){.btn:not(.alt):hover::after{display:none}}
+/* ===== More Tennessee ===== */
+.ridge{display:block;width:100%;height:70px;margin-top:-1px;background:#111}
+.ridge svg{display:block;width:100%;height:70px}
+.checker{height:14px;background:repeating-conic-gradient(#FF8200 0 25%,#fff 0 50%) 0 0/14px 14px}
+.pins{background:#111;color:#fff;padding:14px 0}
+.pins ul{list-style:none;margin:0 auto;padding:0 20px;max-width:1120px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;font-weight:800;font-size:17px}
+.pins li{display:inline-flex;align-items:center;gap:8px}
+.pins li::before{content:"";width:18px;height:24px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 32'%3E%3Cpath d='M12 0C5.4 0 0 5.4 0 12c0 9 12 20 12 20s12-11 12-20C24 5.4 18.6 0 12 0z' fill='%23FF8200'/%3E%3Ccircle cx='12' cy='12' r='5' fill='%23fff'/%3E%3C/svg%3E") center/contain no-repeat}
+.pins li:has(.ts)::before{display:none}
+.pins .ts{width:20px;height:20px;background:url(../img/tristar.svg) center/contain no-repeat;display:inline-block}
+.volbadge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,130,0,.16);border:1.5px solid #FF8200;color:#fff;border-radius:999px;padding:6px 14px 6px 6px;font-weight:800;font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.volbadge i{width:24px;height:24px;background:url(../img/tristar.svg) center/contain no-repeat;display:inline-block}
+.card ul li::before{content:"";width:16px;height:16px;top:5px;background:url(../img/tristar.svg) center/contain no-repeat}
+.stamp{float:right;width:120px;height:120px;margin:-6px 0 10px 16px;transform:rotate(-8deg);opacity:.95}
+footer .badges{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px}
+.totop{position:fixed;right:14px;bottom:86px;z-index:40;width:52px;height:52px;border-radius:50%;border:3px solid #fff;background:#111 url(../img/tristar.svg) center/34px no-repeat;box-shadow:0 6px 20px rgba(0,0,0,.3),0 0 0 3px #FF8200;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s}
+.totop.show{opacity:1;pointer-events:auto}
+@media(min-width:960px){.totop{bottom:24px}}
+.btn:not(.alt):hover::before{content:"★";position:absolute;left:-8px;bottom:-10px;font-size:12px;color:#ffb35c;animation:spark .9s .1s ease-out both}
+.btn:not(.alt){box-shadow:0 0 0 0 transparent}.btn:not(.alt):hover{box-shadow:0 0 0 3px rgba(255,130,0,.25),8px -8px 0 -6px #FF8200,-10px 6px 0 -7px #ffb35c}
+.loader{position:fixed;inset:0;z-index:100;background:#111 url(../img/tristar.svg) center/72px no-repeat;animation:fadeout .5s .35s forwards;pointer-events:none}
+@keyframes fadeout{to{opacity:0;visibility:hidden}}
+@media(prefers-reduced-motion:reduce){.loader{display:none}.btn:not(.alt):hover::before{display:none}}

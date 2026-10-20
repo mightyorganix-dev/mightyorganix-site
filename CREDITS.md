@@ -17,3 +17,7 @@ All photos from Wikimedia Commons under the licenses listed. Resized and convert
 - **pricing**: [20171027-AMS-LSC-1031 (38037043622).jpg](https://commons.wikimedia.org/wiki/File:20171027-AMS-LSC-1031_(38037043622).jpg), by U.S. Department of Agriculture, Public domain
 - **deposit**: [Card Payment (176811287).jpeg](https://commons.wikimedia.org/wiki/File:Card_Payment_(176811287).jpeg), by Mañico, CC0
 - **about-webdesign**: [Responsive-web-design-devices.jpg](https://commons.wikimedia.org/wiki/File:Responsive-web-design-devices.jpg), by Muhammad Rafizeldi (MRafizeldi), CC BY-SA 3.0
+- **farm-tomatoes** (home, community section): [Baskets of fresh tomatoes.jpg](https://commons.wikimedia.org/wiki/File:Baskets_of_fresh_tomatoes.jpg), by Andikan Efiok Eduok, CC BY-SA 4.0
+- **farm-peaches** (pricing, sliding scale): [Peaches in basket 2026 G2.jpg](https://commons.wikimedia.org/wiki/File:Peaches_in_basket_2026_G2.jpg), by George Chernilevsky, CC BY 4.0
+- **farm-peppers** (contact): [Fresh red bell peppers arranged in a wooden crate on a table.jpg](https://commons.wikimedia.org/wiki/File:Fresh_red_bell_peppers_arranged_in_a_wooden_crate_on_a_table.jpg), by Shixart1985, CC BY 2.0
+- **farm-peach-basket** (deposit page): [Peaches in basket 2023 G1.jpg](https://commons.wikimedia.org/wiki/File:Peaches_in_basket_2023_G1.jpg), by George Chernilevsky, CC BY 4.0

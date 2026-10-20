@@ -137,3 +137,27 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .pickout{min-height:3em}
 .herohead .hl{-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
 #contact .bigphone{color:#A84E00}
+/* where I work + toolkit */
+.where .kicker{color:#B35400;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0}
+.mapwrap{margin:24px 0}
+#map{height:min(70vh,560px);border-radius:20px;overflow:hidden;border:2px solid #FF8200;background:#f3ead9}
+.mapfallback{width:100%;height:100%;object-fit:cover;display:block}
+.mapnote{font-size:15px;margin-top:8px}
+.towns,.counties{list-style:none;padding:0;columns:2;column-gap:20px}
+.towns li,.counties li{break-inside:avoid;padding:6px 0;border-bottom:1px dashed rgba(122,82,48,.3)}
+.towns span,.counties span{display:block;font-size:14px;opacity:.8}.towns li.out b{opacity:.75}
+@media(max-width:600px){.towns,.counties{columns:1}}
+.tools table{width:100%;border-collapse:collapse;font-size:14px;display:block;overflow-x:auto}
+.tools th,.tools td{border:1px solid #ddd;padding:6px;vertical-align:top;text-align:left}.tools th{background:#FFE3C4;color:#111}
+.unv{color:#a00;font-style:normal;font-weight:800}
+.tk{margin:30px 0}.callscript dt{font-weight:800;margin-top:10px}.callscript dd{margin:4px 0 0 0}
+.tklink{opacity:.55;font-size:12px}
+@media print{header,.dock,footer,.ridge,.checker,.loader,.dl,.btn{display:none!important}.tools table{display:table;font-size:10px}.tk{page-break-inside:auto}}
+/* Tennessee pride pass */
+.kicker{font-family:"Fraunces",Georgia,serif;font-style:italic;font-weight:600;font-size:clamp(16px,1.8vw,19px);color:#B35400;margin:0 0 6px;display:flex;align-items:center;gap:10px}
+.kicker:before{content:"\2605\2009\2605\2009\2605";font-style:normal;font-size:12px;letter-spacing:.1em;color:#FF8200}
+.about .kicker,.hero .kicker,.dark .kicker{color:#FFB067}
+.hills{line-height:0;margin:0 0 -2px}.hills svg{width:100%;height:clamp(40px,6vw,90px);display:block}
+#services .g3p{counter-reset:track}
+#services .g3p .card h3:before{counter-increment:track;content:"No. " counter(track,decimal-leading-zero);display:block;font-family:"Fraunces",Georgia,serif;font-size:13px;letter-spacing:.14em;color:#B35400;margin-bottom:4px}
+.kicker:before{flex-shrink:0;white-space:nowrap}

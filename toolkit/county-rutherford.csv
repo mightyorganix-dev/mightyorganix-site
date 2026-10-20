@@ -1,0 +1,3 @@
+business,type,town,county,miles,area_code,phone,phone_verified,site,why,source
+"Cowboy Lawn Care, LLC",Lawn Services,Murfreesboro,Rutherford,30.9,unverified,Not verified: look up,No,www.cowboylawncare.com,"cowboylawncare.com redirects to a private Google Sites page that asks visitors to sign in with Google, so the public sees no website",https://web.rutherfordchamber.org/mobile/directoryListing.aspx?ListingID=15621
+"Ogles Electric Company, LLC",Electrical Supplies And Services,Murfreesboro,Rutherford,30.9,615,(615) 893-0326,Yes (chamber listing),ogleselectric.com,Not mobile-friendly (no viewport); jQuery 1.x,https://web.rutherfordchamber.org/mobile/directoryListing.aspx?ListingID=5505

@@ -1,0 +1,2 @@
+business,type,town,county,miles,area_code,phone,phone_verified,site,why,source
+Well Body Pilates,Pilates studio,Goodlettsville,Davidson,11.7,646,(646) 388-2867,Yes,wellbodypilates.com,"Homepage almost empty (~2 KB of content 10/20); no phone, address or contact form; no class booking",audit 10/16 + recheck 10/20

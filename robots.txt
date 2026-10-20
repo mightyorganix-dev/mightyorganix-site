@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /mightyorganix-site/tools.html
+Disallow: /mightyorganix-site/toolkit/
+Disallow: /tools.html
+Disallow: /toolkit/

@@ -1,0 +1,11 @@
+business,type,town,county,miles,area_code,phone,phone_verified,site,why,source
+Conyer Roofing & Exteriors,Roofing/exteriors,Gallatin,Sumner,24.3,615,(615) 802-1032,Yes,conyerroofingandexteriors.com,Copyright still says 2021 (rechecked 10/20); outdated font/center tags,audit 10/16 + recheck 10/20
+Corlew Appliance Parts & Service,Appliance repair,Gallatin,Sumner,24.3,615,(615) 451-3661,Yes,corlewappliance.com,Outdated code (font/center tags); no online service request,audit 10/16 + recheck 10/20
+Fuse Wrkz,Business Services,Gallatin,Sumner,24.3,unverified,Not verified: look up,No,www.fusewrkz.com,No phone number on homepage,https://members.gallatintn.org/list/member/fuse-wrkz-6525
+Gregory Family Farm,Farm/agritourism,Gallatin,Sumner,24.3,615,(615) 948-4971,Yes,gregoryfamilyfarmtn.com,No phone or address on homepage; slow on phones (~16 s load; very heavy page),audit 10/16 + recheck 10/20
+McMillan Veterinary Clinic,Veterinary,Gallatin,Sumner,24.3,615,(615) 451-0522,Yes,mcmillanvetclinic.com,"Outdated code (font/center tags, jQuery 1.x); phone not tap-to-call; broken link; slow on phones (~19 s to load)",audit 10/16 + recheck 10/20
+Ms. Sue's Med Spa,Med spa,Gallatin,Sumner,24.3,unverified,Not verified: Chamber listing - verify,No,mssuesmedspa.com,"Not mobile-friendly (no viewport, rechecked 10/20); no online booking flow",audit 10/16 + recheck 10/20
+Shrum's Roofing Company,Roofing,Gallatin,Sumner,24.3,615,(615) 675-4489,Yes,shrumsroofing.com,Phone not tap-to-call on phones,audit 10/16 + recheck 10/20
+The Pick Inn Weddings & Events,Event venue,Gallatin,Sumner,24.3,615,(615) 946-4306,Yes,pickinnevents.com,"Outdated code (font/center tags, jQuery 1.x); no phone or address on homepage; very slow on phones (~22 s to load)",audit 10/16 + recheck 10/20
+The Red Tulip,Gift boutique,Gallatin,Sumner,24.3,615,(615) 206-1395,Yes,redtulipgifts.com,No phone number on homepage; broken link/image,audit 10/16 + recheck 10/20
+Wood Personnel Services,Business Services,Gallatin,Sumner,24.3,615,(615) 989-7911,Yes (chamber listing),www.woodpersonnel.com,No phone number on homepage,https://members.gallatintn.org/list/member/wood-personnel-services-4233

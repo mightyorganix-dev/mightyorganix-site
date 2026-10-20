@@ -56,3 +56,9 @@ footer strong{color:#fff;text-shadow:0 0 18px rgba(247,107,21,.55)}
 .pullquote p{margin:0;font-size:clamp(20px,4.6vw,28px);line-height:1.35;font-weight:700;color:#fff}
 .pullquote cite{display:block;margin-top:10px;color:var(--o);font-style:normal;font-weight:800;font-size:14px;letter-spacing:1.5px;text-transform:uppercase}
 footer em{color:#ffb27a;font-style:normal}
+
+.slide{background:#fff7f0;border:2px solid var(--o);border-radius:16px;padding:18px 20px;margin:0 0 22px;font-size:18px;box-shadow:0 6px 24px rgba(247,107,21,.15)}.slide p{margin:0 0 10px}.slide strong{color:#111}
+.tnstrong{display:flex;align-items:center;gap:10px;font-weight:900;font-size:22px;color:var(--od);letter-spacing:.5px}.about .tnstrong{color:var(--o);margin-top:4px}
+.tristar{flex:none;vertical-align:middle;filter:drop-shadow(0 0 5px rgba(247,107,21,.45))}.tristar.hdr{margin-left:4px;filter:none}
+.tnline{display:inline-flex;align-items:center;gap:8px;margin:8px 0 4px;font-weight:700;color:#fff}
+.hero .tsmark{position:absolute;right:-60px;bottom:-80px;width:420px;height:420px;opacity:.07;z-index:0;pointer-events:none}
